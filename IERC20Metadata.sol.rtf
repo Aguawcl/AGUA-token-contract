@@ -1,0 +1,35 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2759
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 // SPDX-License-Identifier: MIT\
+// OpenZeppelin Contracts v4.4.1 (token/ERC20/extensions/IERC20Metadata.sol)\
+\
+pragma solidity ^0.8.0;\
+\
+import "../IERC20.sol";\
+\
+/**\
+ * @dev Interface for the optional metadata functions from the ERC20 standard.\
+ *\
+ * _Available since v4.1._\
+ */\
+interface IERC20Metadata is IERC20 \{\
+    /**\
+     * @dev Returns the name of the token.\
+     */\
+    function name() external view returns (string memory);\
+\
+    /**\
+     * @dev Returns the symbol of the token.\
+     */\
+    function symbol() external view returns (string memory);\
+\
+    /**\
+     * @dev Returns the decimals places of the token.\
+     */\
+    function decimals() external view returns (uint8);\
+\}}
